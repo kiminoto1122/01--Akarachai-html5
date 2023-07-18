@@ -1,0 +1,269 @@
+@font-face {
+    font-family: aiw;
+    src: url(font/ChelaOne-Regular.ttf);
+}
+@font-face {
+    font-family: fam;
+    src: url(font/VT323-Regular.ttf);
+}
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+* a{
+    text-decoration: none;
+}
+* li{
+    list-style: none;
+}
+h1{
+    font-family: fam;
+    font-size: 88px;
+    letter-spacing: 15px;
+}
+h3{
+    font-family: fam;
+    font-size: 88px;
+    letter-spacing: 15px;
+}
+body{
+    background: #1d418d;
+    color: rgb(250, 250, 242);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.header {
+    font-family: aiw;
+    font-size: 34px;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(imgv/pic.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.header ul{
+    display: flex;
+    
+}
+.header ul li{
+    padding: 0 30px;
+    
+}
+.header ul li a{
+    font-weight: bold;
+    margin-left: 10px;
+}
+a {
+    background-image: linear-gradient(
+      to right,
+      #5592ee,
+      #eecd74 50%,
+      #F5E3CB 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:before {
+    content: '';
+    background: #3d7bd6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: 0;
+  }
+  
+  a:hover::before {
+    width:100%;
+  }
+.topic{
+    position: absolute;
+    top: 60%;
+    left: 6%;
+    width: 85%;
+    height: 15vh;
+    justify-content: space-between;
+    text-align: center;
+}
+.topic h2{
+    font-family: aiw;
+    font-size: 100px;
+    position: relative;
+}
+.topic p{
+    font-family: fam;
+    font-size: 68px;
+    letter-spacing: 15px;
+    
+}
+.all {
+
+    top: 80%;
+    padding: 50px 12px;
+    font-size: 22px;
+
+}
+.row{
+    
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+
+    flex-basis: 50%;
+    margin-bottom: 10px;
+    padding: 10px 8%;
+}
+.video-col{
+    margin-left: 15%;
+    flex-basis: 65%;
+    margin-bottom: 10px;
+}
+.video-col video{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+.voice{
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    height: 80vh;
+    text-align: center;
+    margin: 105px auto;
+}
+.voice h2{
+
+    font-size: 40px;
+    letter-spacing: 1.2px;
+}
+.row h3{
+    font-family: aiw;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.row p{
+    font-family: aiw;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.row-form {
+    position: relative;
+    font-family: aiw;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    height: 105vh;
+}
+.name input{
+    width: 280px;
+    height: 32px;    
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}
+.submit input{
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    color: #1d150b;
+    padding: 7px 30px;
+    font-family: aiw;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+ 
+}
+select {
+    margin: 0px 0;
+    text-align: center;
+	background: #F0F3FB;
+	border: 1px solid #F0F3FB;
+	border-radius: 15px;
+	width: 100%;
+	font-size: 21px;
+    margin-left: 830px;
+	color: #3F3F3F;
+	
+}
+.select-wrapper {
+	position: relative;
+    width: 200px;   
+}
+
+.select-wrapper:after {
+	font-family: aiw;
+  	font-size: 42px;  
+  	position: absolute;
+  	top: -10px;  
+  	right: 10px; 
+  	color: #434B67;
+  	pointer-events: none;
+}
+.row-schedule {
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    height: 105vh;
+    text-align: center;
+    margin: 105px auto;
+    padding-left: auto;
+    justify-content: space-between;
+}
+.row-schedule p {
+    font-family: fam;
+    font-size: 68px;
+    letter-spacing: 15px;
+}
+.row-video {
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    height: 95vh;
+    text-align: center;
+    margin: 105px auto;
+}
+.row-video p {
+    font-family: fam;
+    font-size: 68px;
+    letter-spacing: 15px;
+}
+.footer {
+    font-family: aiw;
+    font-size: 30px;
+    display: grid;
+    position: relative;
+    grid-area: footer;
+    min-height: 12rem;
+}

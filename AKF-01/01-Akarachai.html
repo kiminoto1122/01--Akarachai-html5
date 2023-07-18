@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ak.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01--Akarachai</title>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div>
+                <h1>01--Akarachai</h1>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#voice">Voice</a></li>
+                    <li><a href="#form">Form</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="topic">
+        <h2>This mY Homework</h2>
+    </div> 
+    <div class="container">
+        <div class="all">
+            <div class="row-video">
+                <a name="video"></a>
+                <p>video</p>
+                <video autoplay loop muted src="imgv/video.mp4" type="video/mp4"></video>
+            </div>
+            <div class="voice">
+                <a name="voice"></a>
+                <h3 align ="center">voice</h3>
+                <audio controls autoplay loop>
+                    <source src="imgv/sound.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div class="row-form">
+                <a name="form"><form></form></a>
+                <h3>Form input Type</h3>
+                <form action="" method="get">
+                    <div class="form">
+                        <p>ชื่อ นามสกุล</p>
+                        <div class="name">
+                            <input type="name" placeholder="ชื่อ-นามสุกล">
+                        </div>
+                        <p>ระดับการศึกษาในปัจจุบัน</p>
+                        <div class="select-wrapper">
+                    
+                            <select>
+                                <option value="มัธยมศึกษาปีที่ 1">มัธยมศึกษาปีที่ 1</option>
+                                <option value="มัธยมศึกษาปีที่ 2">มัธยมศึกษาปีที่ 2</option>
+                                <option value="มัธยมศึกษาปีที่ 3">มัธยมศึกษาปีที่ 3</option>
+                                <option value="มัธยมศึกษาปีที่ 4">มัธยมศึกษาปีที่ 4</option>
+                                <option value="มัธยมศึกษาปีที่ 5">มัธยมศึกษาปีที่ 5</option>
+                                <option value="มัธยมศึกษาปีที่ 6">มัธยมศึกษาปีที่ 6</option>
+                            </select>
+                        </div>
+                        <p>เพศ</p>
+                        <form>
+                            <input type="radio" name="gender" value="male" checked>ชาย<br>
+                            <input type="radio" name="gender" value="female">หญิง<br>
+                            <input type="radio" name="gender" value="other">อื่นๆ  
+                        </form>
+                        <p>Username</p>
+                        <div class="name">
+                                <input type="username" placeholder="username">
+                        </div>
+                        <p>Password</p>
+                        <div class="name">
+                            <input type="password" placeholder="password">
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row-schedule">
+                <a name="schedule"></a>
+                <table class="type1" id="t01">
+                    <caption><p>schedule 610<p></caption>
+                    <style>
+                        th,td {
+                            text-align: center;
+                            padding: 10px;
+                        }
+                        table#t01 {
+                            width : 100%;
+                        }
+                        table#t01 tr:nth-child(even) {
+                            background-color: #eef5ff;
+                            color: #665c4a;
+                        }
+                        table#t01 tr:nth-child(odd) {
+                           background-color:#dedede;
+                           color: #665c4a;
+                        }
+                        table#t01 th {
+                            background-color: #6b8ec7;
+                            color: rgb(48, 31, 21);
+                        }
+                    </style>
+                    <thead>
+                        <tr>
+                            <th>วัน/เวลา</th>
+                            <th>(1) 7.30-8.20</th>
+                            <th>(2) 8.20-9.10</th>
+                            <th>(3) 9.10-10.00</th>
+                            <th>(4) 10.00-10.50</th>
+                            <th>(5) 10.50-11.40</th>
+                            <th>(6) 11.40-12.30</th>
+                            <th>(7) 12.30-13.20</th>
+                            <th>(8) 13.20-14.10</th>
+                            <th>(9) 14.10-15.00</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>จันทร์</td>
+                            <td>โฮมรูมพบครูที่ปรึกษา</td>
+                            <td>ส่งเสริมวิชาการ ห้อง126</td>
+                            <td>พระพุทธ(ส33103) ห้อง432</td>
+                            <td>ภาษาไทย(ท33101) ห้อง225</td>
+                            <td>คณิตศาสตร์(ค33201) ห้อง231</td>
+                            <td>คณิตศาสตร์(ค33201) ห้อง231</td>
+                            <td>พักกลางวัน</td>
+                            <td>คอมพิวเตอร์(ว30272) ห้อง342</td>
+                            <td>คอมพิวเตอร์(ว30272) ห้อง342</td>
+                        </tr>
+                        <tr>
+                            <td>อังคาร</td>
+                            <td>โฮมรูมพบครูที่ปรึกษา</td>
+                            <td>เคมี(ว33225) ห้อง711</td>
+                            <td>ภูมิศาสตร์(ส33101) ห้อง431-1</td>
+                            <td>คอมพิวเตอร์(ว30273) ห้อง341</td>
+                            <td>คอมพิวเตอร์(ว30273) ห้อง341</td>
+                            <td>คณิตศาสตร์(ค33201) ห้อง231</td>
+                            <td>พักกลางวัน</td>
+                            <td>ฟิสิกส์(ว33205) ห้อง941</td>
+                            <td>ฟิสิกส์(ว33205) ห้อง941</td>
+                        </tr>
+                        <tr>
+                            <td>พุธ</td>
+                            <td>โฮมรูมพบครูที่ปรึกษา</td>
+                            <td>คณิตศาสตร์(ค33201) ห้อง231</td>
+                            <td>ฟิสิกส์(ว33205) ห้อง714</td>
+                            <td>แนะแนว(ก33901) ห้อง115</td>
+                            <td>อังกฤษ(อ30201) ห้อง435</td>
+                            <td>ชีวะ(ว33245) ห้อง932</td>
+                            <td>พักกลางวัน</td>
+                            <td>พละ(พ33101) สนามฟุตซอล</td>
+                            <td>ศิลปะ(ศ33101) ห้อง333</td>
+                        </tr>
+                        <tr>
+                            <td>พฤหัสบดี</td>
+                            <td>โฮมรูมพบครูที่ปรึกษา</td>
+                            <td>กิจกรรมวิถีพุทธ</td>
+                            <td>ฟิสิกส์(ว33205) ห้อง942</td>
+                            <td>ภาษาไทย(ท33101) ห้อง222</td>
+                            <td>คณิตศาสตร์(ค33101) ห้อง231</td>
+                            <td>อังกฤษ(อ30201) ห้อง246</td>
+                            <td>พักกลางวัน</td>
+                            <td>ภูมิศาสตร์(ส33101) ห้อง431-1</td>
+                            <td>ประชุมระดับ</td>
+                        </tr>
+                        <tr>
+                            <td>ศุกร์</td>
+                            <td>โฮมรูมพบครูที่ปรึกษา</td>
+                            <td>คณิตศาสตร์(ค33101) ห้อง231</td>
+                            <td>ชีวะ(ว33245) ห้อง931</td>
+                            <td>ชีวะ(ว33245) ห้อง931</td>
+                            <td>อังกฤษครูต่างชาติ(อ30201) ห้อง711</td>
+                            <td>เสรีภาษา</td>
+                            <td>พักกลางวัน</td>
+                            <td>เคมี(ว33225) ห้อง921</td>
+                            <td>เคมี(ว33225) ห้อง921</td>
+                        </tr>
+                    </tbody>
+                  </table>
+                  
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://www.facebook.com/fam.akarachai?mibextid=LQQJ4d">Facebook</a>
+    </div>
+</body>
+</html>
